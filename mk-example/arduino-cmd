@@ -1,0 +1,3 @@
+# sudo apt-get install gcc-avr avr-libc avrdude arduino arduino-mk
+
+arduino --upload sketch/sketch.ino --port /dev/ttyACM0 --board arduino:avr:uno:cpu=atmega168
